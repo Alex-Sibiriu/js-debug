@@ -41,6 +41,15 @@ function printColorsNumber() {
 }
 printColorsNumber();
 
+// 1- Che cosa fa questo codice?
+    // Stampa in console il numero di colori presenti nell'array.
+
+// 2- Sono presenti errori di sintassi?
+    // Si, quando scriviamo ${colors.lenght}, è scritto male, la h va dopo la t.
+
+// 3- Sono presenti errori logici?
+    // No.
+
 
 // ESERCIZIO 3
 function addNumbers() {
