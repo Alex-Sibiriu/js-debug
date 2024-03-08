@@ -89,6 +89,16 @@ function checkAccess() {
 }
 checkAccess();
 
+// 1- Che cosa fa questo codice?
+    // Chiede la mail all'utente e verifica se può effettuare l'accesso.
+
+// 2- Sono presenti errori di sintassi?
+    // La variabile grantAccess viene dichiarata e valorizzata scrivendo 'true' e 'false' con gli apici, questo li rende stringhe, bisogna scriverle senza apici per renderli booleani.
+
+// 3- Sono presenti errori logici?
+    // No.
+
+
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 function checkAccessImproved() {
