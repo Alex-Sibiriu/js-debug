@@ -71,3 +71,12 @@ function displayEvenNumbers() {
     }
 }
 displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+
+// 1- Che cosa fa questo codice?
+    //  Dato un array di numeri, controlla quali sono pari e li pusha dentro un nuovo array.
+
+// 2- Sono presenti errori di sintassi?
+    // Si, i due array devono essere dichiarati come const e non come let, dopo l'incremento i++ non si deve inserire il punto e virgola, la comparazione (numbers % 2 = 0) deve essere effettuata con ===, fra la dichiarazione della condizionale dell' if e la parentesi quandra non si deve inserire il punto e virgola.
+
+// 3- Sono presenti errori logici?
+    // Si, nella comparazione (numbers % 2 = 0) stiamo prendendo l'intero array numbers, invece dovremmo scrivere (numbers[i] % 2 = 0), poi stiamo pushando dentro evenNumbers l'indece e non l'elemento, per farlo dovremmo scrivere: evenNumbers.push(numbers[i]).
