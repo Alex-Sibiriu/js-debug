@@ -32,6 +32,15 @@ function addIfEven(num) {
     return num;
 }
 
+// 1- Che cosa fa questo codice?
+    // Controlla se un numero (inserito come parametro) è pari o dispari, se è pari restituisce il numero dato + 5, altrimenti solo il numero dato.
+
+// 2- Sono presenti errori di sintassi?
+    // Si, la comparazione fra 'num % 2' e 0 viene effettuata tramite un =, questo è un errore, per la comparazione bisogna usare === in modo da verificare se il contenuto del dato e la sua tipologia corrispondano a 0.
+
+// 3- Sono presenti errori logici?
+    // No.
+
 
 // ESERCIZIO 3
 function loopToFive() {
