@@ -15,6 +15,14 @@ for (let i = 0; i > 5; i++) {
     console.log(i);
 }
 
+// 1- Che cosa fa questo codice?
+    // - è un ciclo FOR che ogni volta stampa in console l'elemento [i]
+
+// 2- Sono presenti errori di sintassi?
+    // - NO
+
+// 3- Sono presenti errori logici?
+    // Si, il ciclo dovrebbe verificarsi finche la condizione "i > 5", questo non si verifica in quanto l'elemento i parte con valore 0, il ciclo quindi non parte e non avviene nemmeno l'incremento di i.
 
 // ESERCIZIO 2
 function addIfEven(num) {
