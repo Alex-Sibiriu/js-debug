@@ -60,6 +60,15 @@ function addNumbers() {
 }
 addNumbers();
 
+// 1- Che cosa fa questo codice?
+    // Chiede un numero all'utentee fa il totale aggiungendo 12 stampandolo in console.
+
+// 2- Sono presenti errori di sintassi?
+    // No.
+
+// 3- Sono presenti errori logici?
+    // Si, non viene effettuato il parseInt del prompt, di conseguenza stiamo sommando una stringa ad un numero.
+
 
 // ESERCIZIO 4
 function checkAccess() {
