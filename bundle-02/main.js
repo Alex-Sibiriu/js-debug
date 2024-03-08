@@ -23,6 +23,17 @@ function checkAge() {
 }
 checkAge();
 
+
+// 1- Che cosa fa questo codice?
+    // è una funzione che controlla l'età data.
+
+// 2- Sono presenti errori di sintassi?
+    // Si, message viene valorizzato in seguito alla sua dichiarazione, deve quindi essere dichiarata come let
+
+// 3- Sono presenti errori logici?
+    // Si, una funzione scritta in questo modo non è riutilizzabile, sarebbe meglio passargli myAge come parametro della funzione in modo da renderla riutilizzabile.
+
+
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
