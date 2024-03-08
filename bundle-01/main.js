@@ -16,13 +16,14 @@ for (let i = 0; i > 5; i++) {
 }
 
 // 1- Che cosa fa questo codice?
-    // - è un ciclo FOR che ogni volta stampa in console l'elemento [i]
+    // - è un ciclo FOR che ogni volta stampa in console l'elemento [i],, finchè non arriva a 5.
 
 // 2- Sono presenti errori di sintassi?
     // - NO
 
 // 3- Sono presenti errori logici?
     // Si, il ciclo dovrebbe verificarsi finche la condizione "i > 5", questo non si verifica in quanto l'elemento i parte con valore 0, il ciclo quindi non parte e non avviene nemmeno l'incremento di i.
+
 
 // ESERCIZIO 2
 function addIfEven(num) {
@@ -49,6 +50,14 @@ function loopToFive() {
     }
 }
 
+// 1- Che cosa fa questo codice?
+    // - è un ciclo FOR che ogni volta stampa in console l'elemento [i], finchè non arriva a 5
+
+// 2- Sono presenti errori di sintassi?
+    // Si, al posto delle virgole bisogna usare il punto e virgola in modo da separare correttamente le varie dichiarazioni.
+
+// 3- Sono presenti errori logici?
+    // No.
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 function displayEvenNumbers() {
