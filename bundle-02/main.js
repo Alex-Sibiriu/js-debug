@@ -128,7 +128,14 @@ function checkAccessImproved() {
     }
     checkAccessImproved();
 
+// 1- Che cosa fa questo codice?
+    // Chiede la mail all'utente e verifica se può effettuare l'accesso, contorllando che l'input inserito sia lungo almeno 5 caratteri.
 
+// 2- Sono presenti errori di sintassi?
+    // Si, manca la parentesi graffa di chiusura della funzione, poi la variabile grantAccess viene dichiarata in maniera errata come sopra.
+
+// 3- Sono presenti errori logici?
+    // No.
 
 
 
