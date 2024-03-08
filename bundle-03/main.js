@@ -84,3 +84,18 @@ console.log(dieselCars);
 
 console.log('Tutte le altre auto');
 console.log(otherCars);
+
+
+// 1- Che cosa fa questo codice?
+    // Dato un array di oggetti, lo dividiamo in altri 3 array differenti a seconda della tipologia, in seguito stampiamo i 3 array in console.
+
+// 2- Sono presenti errori di sintassi?
+    // Errore 1: a riga 59 manca un virgola, per dividere i due oggetti.
+    // Errore 2: Sempre a riga 59 la comparazione non tiene conto di benzina scritto con la B maiuscola, manca il .toLowerCase().
+    // Errore 3: a riga 67 la arrow function è scritta male, la versione corretta sarebbe =>.
+    // Errore 4: a riga 70 serve un return per far funzionare il ciclo filter quindi: return auto.type === 'diesel'.
+    // Errore 5: sempre a riga 70 la comparazione non tiene conto di diesel scritto con la D maiuscola, manca il .toLowerCase().
+    
+
+// 3- Sono presenti errori logici?
+    // Errore 6: a riga 74 dovremmo escludere entrambi i tipi di auto, di conseguenza l'operatore logico || non è corretto, bisogna utilizzare &&.
